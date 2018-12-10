@@ -10,6 +10,7 @@ public class ValueConfiguration {
 	//name of the variables has to be same as that of in properties file
 	private int minimum;
 	private int maximum;
+	private String profile;
 	
 	public int getMinimum() {
 		return minimum;
@@ -23,5 +24,12 @@ public class ValueConfiguration {
 	}
 	public void setMaximum(int maximum) {
 		this.maximum = maximum;
+	}
+	
+	public String getProfile() {
+		return profile;
+	}
+	public void setProfile(String profile) {
+		this.profile = profile;
 	}
 }
